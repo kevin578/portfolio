@@ -1,4 +1,53 @@
 .projects {
     display: flex;
+    justify-content: space-around;
     word-wrap: break-word;
+    position: relative;
+}
+
+.exampleProjects {
+    width: 310px;
+    height: 310px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.footballPic {
+    width: 200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.urlShortener {
+    position: relative;
+    top: 25%;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    background:#ee6123;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    transition: .2s;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    margin-left: 15px;
+}
+
+.button-pressed {
+    transform: translateY(2px);
+    transition: .2s;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.simonPic {
+    width: 250px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
