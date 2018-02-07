@@ -41,7 +41,7 @@
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
-.simonPic, .mrtkPic, .tomatoPic, .footballPic {
+.simonPic, .mrtkPic, .tomatoPic, .footballPic, .dadJokePic {
     position: relative;
     top: 50%;
     left: 50%;
@@ -59,4 +59,8 @@
 
 .tomatoPic {
     width: 150px;
+}
+
+.dadJokePic {
+    width: 200px;
 }

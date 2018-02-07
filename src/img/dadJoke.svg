@@ -1,0 +1,51 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 146">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffcd7e;
+      }
+
+      .cls-2 {
+        fill: #ffa62a;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b00053;
+      }
+
+      .cls-5 {
+        fill: #754c24;
+      }
+    </style>
+  </defs>
+  <title>dadJoke</title>
+  <g>
+    <circle class="cls-1" cx="19.56" cy="61.81" r="10.81"/>
+    <circle class="cls-2" cx="19.56" cy="61.81" r="6.45"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="114.56" cy="61.81" r="10.81"/>
+    <circle class="cls-2" cx="114.56" cy="61.81" r="6.45"/>
+  </g>
+  <rect class="cls-1" x="19.51" y="5.5" width="94.49" height="134" rx="43" ry="43"/>
+  <rect class="cls-2" x="60" y="44" width="14" height="29" rx="7" ry="7"/>
+  <g>
+    <circle class="cls-3" cx="88.8" cy="45.34" r="8.5"/>
+    <ellipse cx="88.8" cy="45.34" rx="2.1" ry="2.18"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="44.8" cy="46.34" r="8.5"/>
+    <ellipse cx="44.8" cy="46.34" rx="2.1" ry="2.18"/>
+  </g>
+  <g>
+    <path class="cls-4" d="M67.5,114a19.47,19.47,0,0,0,18.36-13H49.14A19.47,19.47,0,0,0,67.5,114Z"/>
+    <path class="cls-3" d="M48.08,96a19.41,19.41,0,0,0,1.07,5H85.86a19.41,19.41,0,0,0,1.07-5Z"/>
+  </g>
+  <rect class="cls-5" x="6" y="35" width="21" height="17" rx="6.5" ry="6.5"/>
+  <rect class="cls-5" x="106" y="35.5" width="21" height="17" rx="6.5" ry="6.5"/>
+  <path class="cls-5" d="M93,98c-2.39-8-12.8-14-25.29-14s-22.9,6-25.29,14Z"/>
+</svg>
