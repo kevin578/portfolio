@@ -1,0 +1,18 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: white;
+        stroke-miterlimit: 10;
+        stroke-width: 16px;
+            cursor: pointer;
+      }
+    </style>
+  </defs>
+  <title>Arrow</title>
+  <g>
+    <line class="cls-1" x1="8" y1="6" x2="85" y2="82"/>
+    <line class="cls-1" x1="152.75" y1="6.0" x2="76.25" y2="82"/>
+  </g>
+</svg>

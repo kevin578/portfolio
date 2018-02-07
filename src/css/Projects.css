@@ -1,5 +1,6 @@
 .projects {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     word-wrap: break-word;
     position: relative;
@@ -15,10 +16,6 @@
 
 .footballPic {
     width: 200px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
 }
 
 .urlShortener {
@@ -44,10 +41,22 @@
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
-.simonPic {
-    width: 250px;
+.simonPic, .mrtkPic, .tomatoPic, .footballPic {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+}
+
+.simonPic {
+    width: 250px;
+}
+
+.mrtkPic {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.tomatoPic {
+    width: 150px;
 }

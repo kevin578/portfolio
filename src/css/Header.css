@@ -2,6 +2,7 @@
     width: 100%;
     height: 550px;
     background: #2da594;
+    /*clip-path: polygon(0 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%);*/
 }
 
 .header__content {
@@ -31,6 +32,27 @@
 
 .header__content__description {
     font-weight: 400;
+}
 
+.header__arrow {
+    margin-top: 10px;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
 
 }
+object {
+    pointer-events: none;
+}
+.cursor-hover-area {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+
