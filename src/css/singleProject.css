@@ -1,9 +1,12 @@
 a {
     text-decoration: none;
     color:#000;
-    cursor: pointer;
+    cursor: default;
 }
 
+.singleProjectHover {
+    cursor: pointer;
+}
 
 .singleProject__img {
     position: relative;
@@ -11,7 +14,6 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    cursor: pointer;
     display: block;
     transition: .5s;
 }
@@ -19,7 +21,7 @@ a {
 .singleProject__imgHover {
     width: 150px;
     transition: .5s;
-    transform: translate(-50%, -90%)
+    transform: translate(-50%, -90%);
 }
 
 .singleProject__text {

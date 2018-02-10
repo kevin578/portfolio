@@ -1,6 +1,6 @@
 import React from 'react';
 import "./../css/Projects.css";
-import "./../css/singleProject.css"
+import "./../css/SingleProject.css"
 import classNames from 'classnames';
     
 export default class SingleProject extends React.Component {
@@ -20,6 +20,7 @@ export default class SingleProject extends React.Component {
 
         let divClass = classNames({
             singleProject: true,
+            singleProjectHover: this.state.isHovering
         });
 
         let imgClass = classNames({
