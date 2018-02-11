@@ -7,7 +7,14 @@
     background: #6930db;
     display: flex;
     justify-content: flex-end;
-    position: relative;
+    position: fixed;
+    z-index: 1;
+    transition: .2s;
+}
+
+.navbar_shrink {
+    height: 50px;
+    transition: .5s;
 }
 
 .navbar__links {
@@ -17,6 +24,7 @@
     transform: translate(0, -50%);
     color: white;
     font-size: 1.6em;
+    cursor: pointer;
 }
 
 .navbar__link {

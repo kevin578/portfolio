@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Projects from "./Projects";
@@ -13,7 +14,7 @@ class App extends Component {
     console.log("run")
     scrollToComponent(this[scrollHref], {
       ease: 'outCirc',
-      offset: 0,
+      offset: -50,
       align: 'top',
       duration: time
     })
