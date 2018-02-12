@@ -1,4 +1,28 @@
 .about {
-    height: 550px;
-    background: #2da594;
+  height: 550px;
+  display: flex;
+  background: #707399;
+  justify-content: space-evenly;
+}
+
+.about__paragraph {
+  max-width: 50%;
+  font-size: 24px;
+  padding-top: 20px;
+  align-content: center;
+  line-height: 32px;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.about__skills {
+  max-width: 40%;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.devicon {
+  width: 100px;
+  margin: 20px;
 }

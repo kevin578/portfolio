@@ -1,58 +1,51 @@
 .header {
-    width: 100%;
-    height: 625px;
-    background: #2da594;
-    /*clip-path: polygon(0 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%);*/
+  width: 100%;
+  height: 625px;
+  background: #2da594;
+  /*clip-path: polygon(0 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%);*/
 }
 
 .header__content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
 }
 
 .header__content__img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    border-radius: 300px;
-    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 300px;
 }
 
 .header__content__name {
-    font-size: 60px;
-    font-weight: 600;
-
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .header__content__description {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .header__arrow {
-    margin-top: 10px;
-    width: 30px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0%);
-
+  margin-top: 10px;
+  width: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 object {
-    pointer-events: none;
+  pointer-events: none;
 }
 .cursor-hover-area {
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0%);
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
-
-
-

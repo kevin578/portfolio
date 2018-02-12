@@ -49,7 +49,7 @@ export default class Navbar extends React.Component {
                     <span className = "navbar__link" onClick={()=>this.props.scrollDown('Header')}>Home</span>
                     <span className="navbar__link" onClick={()=>this.props.scrollDown('Projects')}>Projects</span>
                     <span className="navbar__link" onClick={()=>this.props.scrollDown('About')}>About</span>
-                    <span className="navbar__link">Contact</span>
+                    <span className="navbar__link" onClick={()=>this.props.scrollDown('Contact')}>Contact</span>
                 </div>
             </div>
         )

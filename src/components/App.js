@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Projects from "./Projects";
 import About from './About';
+import Contact from './Contact';
 import scrollToComponent from 'react-scroll-to-component';
 import './../css/App.css';
 
@@ -26,7 +27,8 @@ class App extends Component {
         <Navbar scrollDown={this.scrollDown} /> 
         <Header scrollDown={this.scrollDown} ref={(section) => { this.Header = section; }}  />
         <Projects ref={(section) => { this.Projects = section; }}/>
-        <About ref={(section) => { this.About = section; }}/>
+        <About ref={(section) => { this.About = section; }} />
+        <Contact ref={(section) => { this.Contact = section; }}/>
       </div>
     );
   }
