@@ -30,12 +30,12 @@ export default class Navbar extends React.Component {
   render() {
     let navClass = classNames({
       navbar: true,
-      navbar_shrink: this.state.navShrink
+      navbar_shrink: true
     });
 
     let navItemClass = classNames({
       navbar__links: true,
-      navbar_link_shrink: this.state.navShrink
+      navbar_link_shrink: true
     });
 
     return (
