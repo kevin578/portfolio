@@ -21,9 +21,20 @@ export default class Contact extends React.Component {
             method="POST"
             action="https://formspree.io/kevinbriggs1@gmail.com"
           >
-            <input type="email" name="email" placeholder="Your email" />
-            <textarea name="message" placeholder="Your message" />
-            <button type="submit">Send</button>
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              className="contact__form__input contact__form__email"
+            />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              className="contact__form__input contact__form__message"
+            />
+            <button type="submit" className="contact__form__button">
+              Send
+            </button>
           </form>
         </div>
       </div>

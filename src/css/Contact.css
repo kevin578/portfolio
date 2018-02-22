@@ -2,10 +2,10 @@
   background: #3d3f42;
   height: 500px;
   display: flex;
+  color: #fff;
 }
 
 .contact__info {
-  background: green;
   width: 400px;
   padding: 20px;
 }
@@ -18,11 +18,78 @@
 }
 
 .contact__form {
-  background: red;
   width: 400px;
 }
 
 .fas {
   font-size: 48px;
   margin-right: 15px;
+}
+
+.contact__form__input {
+  display: block;
+  margin: 10px;
+}
+
+.contact__form__email,
+.contact__form__message {
+  border: none;
+  background: transparent;
+  padding-left: 5px;
+  border: #fff 2px solid;
+  border-radius: 3px;
+}
+
+.contact__form__email {
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.contact__form__email::-webkit-input-placeholder,
+.contact__form__message::-webkit-input-placeholder,
+.contact__form__email,
+.contact__form__message {
+  color: #fff;
+  font-size: 16px;
+}
+.contact__form__email:focus,
+.contact__form__email:active,
+.contact__form__message:active,
+.contact__form__message:focus {
+  outline: none;
+  border: none;
+  background: transparent;
+  border: #fff 2px transparent;
+  border: #45f442 2px solid;
+  transition: all 0.5s;
+}
+
+.contact__form__message {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+}
+
+.contact__form__button {
+  width: 130px;
+  height: 50px;
+  margin: 10px;
+  background: transparent;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  border: #f4ee42 3px solid;
+  transition: 0.4s all;
+}
+
+.contact__form__button:hover {
+  cursor: pointer;
+  background: #f4ee42;
+  transform: scale(1.1);
+  color: #3d3f42;
+}
+
+.contact__form__button:active {
+  outline: none;
 }

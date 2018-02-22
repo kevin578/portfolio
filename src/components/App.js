@@ -23,7 +23,12 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar scrollDown={this.scrollDown} />
-        {/*<Header scrollDown={this.scrollDown} ref={(section) => { this.Header = section; }}  />*/}
+        <Header
+          scrollDown={this.scrollDown}
+          ref={section => {
+            this.Header = section;
+          }}
+        />
         <Projects
           ref={section => {
             this.Projects = section;
