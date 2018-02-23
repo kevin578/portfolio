@@ -8,9 +8,27 @@ export default class Contact extends React.Component {
       <div className="contact">
         <div className="contact__info">
           <div className="contact__info__icons">
-            <FontAwesome className="fas" name="github" />
-            <FontAwesome className="fas" name="youtube" />
-            <FontAwesome className="fas" name="linkedin" />
+            <a
+              href="https://github.com/kevin578"
+              target="_blank"
+              className="contact__info__links"
+            >
+              <FontAwesome className="fas" name="github" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCeebzVOg5Iv4hVqKTFdaqUQ"
+              target="_blank"
+              className="contact__info__links"
+            >
+              <FontAwesome className="fas" name="youtube" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kevin-briggs-494b6354/"
+              target="_blank"
+              className="contact__info__links"
+            >
+              <FontAwesome className="fas" name="linkedin" />
+            </a>
           </div>
           <p className="contact__info__text">kevinbriggs1@gmail.com</p>
           <p className="contact__info__text">Worcester, MA 01604</p>
@@ -21,6 +39,9 @@ export default class Contact extends React.Component {
             method="POST"
             action="https://formspree.io/kevinbriggs1@gmail.com"
           >
+            <h2 className="contact__form__title">
+              Wanna make something together?
+            </h2>
             <input
               type="email"
               name="email"

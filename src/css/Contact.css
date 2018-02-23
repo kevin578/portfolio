@@ -3,11 +3,17 @@
   height: 500px;
   display: flex;
   color: #fff;
+  padding-left: 20px;
 }
 
 .contact__info {
   width: 400px;
-  padding: 20px;
+  padding: 50px;
+}
+
+.contact__info__links {
+  color: #fff;
+  cursor: pointer;
 }
 
 .contact__info__text {
@@ -17,18 +23,26 @@
   margin-top: 10px;
 }
 
-.contact__form {
-  width: 400px;
-}
-
 .fas {
   font-size: 48px;
-  margin-right: 15px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.contact__form {
+  width: 400px;
+  padding-top: 50px;
+}
+
+.contact__form__title {
+  margin-top: 0px;
+  margin-left: 10px;
 }
 
 .contact__form__input {
   display: block;
   margin: 10px;
+  margin-bottom: 15px;
 }
 
 .contact__form__email,
@@ -38,6 +52,7 @@
   padding-left: 5px;
   border: #fff 2px solid;
   border-radius: 3px;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact__form__email {

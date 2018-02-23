@@ -10,7 +10,7 @@
 }
 
 .navbar_shrink {
-  height: 50px;
+  height: 60px;
   transition: 0.5s;
 }
 
@@ -33,4 +33,9 @@
 .navbar__link {
   margin-right: 20px;
   display: inline-block;
+  transition: all 0.2s;
+}
+
+.navbar__link:hover {
+  transform: scale(1.05);
 }
