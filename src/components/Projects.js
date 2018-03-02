@@ -13,7 +13,6 @@ export default class Projects extends React.Component {
     render() {
         return (
         <div className="projects">
-            
             <SingleProject
                 projectIMG={football}
                 projectTitle="Fantasy Football App"
@@ -31,7 +30,6 @@ export default class Projects extends React.Component {
                 projectTitle="Simon"
                 projectSubtitle = "Remake of the classic game. Uses Promises and navigable SVGs."    
             />
-            
             <SingleProject
                 projectIMG={mrtk}
                 projectTitle="mrteacherkevin"

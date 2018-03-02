@@ -1,8 +1,8 @@
 .about {
-  height: 550px;
   display: flex;
   background: #707399;
   justify-content: space-evenly;
+
 }
 
 .about__paragraph {
@@ -13,6 +13,7 @@
   line-height: 32px;
   color: #fff;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .about__skills {
@@ -30,3 +31,29 @@
 .about__skills__row {
   margin-top: 30px;
 }
+
+
+
+@media (max-width:1053px) {
+  .devicon {
+    width: 90px;
+    margin: 20px;
+  }
+}
+  
+@media (max-width: 970px) {
+  .about {
+      flex-direction: column;
+      padding: 30px;
+  }
+
+  .about__paragraph {
+    max-width: 100%;
+    padding-top: 0px;
+  }
+  .about__skills {
+    max-width: 100%;
+  }
+  
+}
+

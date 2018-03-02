@@ -1,11 +1,11 @@
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     word-wrap: break-word;
     position: relative;
     padding-left: 40px;
     padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .singleProject {
@@ -16,4 +16,26 @@
     margin-top: 15px;
     margin-bottom: 50px;
 }
+
+
+@media (min-width: 1460px) { 
+    .singleProject {
+        width: 400px;
+        box-sizing: border-box;
+    } 
+ }
+
+ @media (min-width: 1840px) {
+     .projects {
+         padding-left: 13%;
+         padding-right: 13%;
+     }
+ }
+
+ @media (min-width: 2420px) {
+    .projects {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+ } 
 
