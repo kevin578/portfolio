@@ -41,7 +41,7 @@
   }
 }
   
-@media (max-width: 970px) {
+@media (max-width: 975px) {
   .about {
       flex-direction: column;
       padding: 30px;
@@ -53,7 +53,33 @@
   }
   .about__skills {
     max-width: 100%;
-  }
+  }  
   
+  .devicon {
+    width: 110px;
+    margin: 30px;
+  }
+
 }
+
+@media (max-width: 588px) {
+  .devicon {
+    width: 90px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .devicon {
+    width: 80px;
+    margin: 10px;
+  }
+}
+@media (max-width: 372px) {
+  .devicon {
+    width: 60px;
+  }
+}
+
+
 
