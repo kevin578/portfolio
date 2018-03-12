@@ -2,18 +2,17 @@
   display: flex;
   background: #707399;
   justify-content: space-evenly;
-
 }
 
 .about__paragraph {
   max-width: 50%;
   font-size: 24px;
-  padding-top: 20px;
+  line-height: 1.5;
   align-content: center;
-  line-height: 32px;
   color: #fff;
   padding-top: 40px;
   padding-bottom: 40px;
+
 }
 
 .about__skills {
@@ -45,11 +44,14 @@
   .about {
       flex-direction: column;
       padding: 30px;
+      padding-left: 20px;
   }
 
   .about__paragraph {
     max-width: 100%;
     padding-top: 0px;
+    font-size: 20px;
+    line-height: 1.5;
   }
   .about__skills {
     max-width: 100%;

@@ -16,36 +16,43 @@ export default class Projects extends React.Component {
             <SingleProject
                 projectIMG={football}
                 projectTitle="Fantasy Football App"
-                projectSubtitle = "A fantasy football scorekeeper made with React"    
+                projectSubtitle = "A fantasy football scorekeeper made with React"   
+                projectURL = "http://fireleaguefallout.surge.sh/" 
             />
             
             <SingleProject
                 projectIMG={scissors}
                 projectTitle="Link Shortener"
-                projectSubtitle = "App to create custom short links. Built with Node.js and MongoDB"    
+                projectSubtitle = "App to create custom short links. Built with Node.js and MongoDB" 
+                projectURL = "https://kevins-kustom-links.herokuapp.com/"   
                 />
             
             <SingleProject
                 projectIMG={simon}
                 projectTitle="Simon"
                 projectSubtitle = "Remake of the classic game. Uses Promises and navigable SVGs."    
+                projectURL = "http://simongamedekevin.surge.sh/"
             />
             <SingleProject
                 projectIMG={mrtk}
                 projectTitle="mrteacherkevin"
-                projectSubtitle = "My educational site."    
+                projectSubtitle = "My educational site."   
+                projectURL = "http://mrteacherkevin.com/" 
             />
             
             <SingleProject
                 projectIMG={tomato}
                 projectTitle="Pomodoro Clock"
-                projectSubtitle = "Pomodoro clock programmed with Vue."    
+                projectSubtitle = "Pomodoro clock programmed with Vue."   
+                projectURL = "http://clockdepomodoro.surge.sh/" 
             />
             
             <SingleProject
                 projectIMG={dadJoke}
                 projectTitle="Dad Joke Generator"
-                projectSubtitle = "Fun app that gives you a bunch of dad jokes."    
+                projectSubtitle = "Fun app that gives you a bunch of dad jokes."
+                projectURL = "http://kevinsdadjokegenerator.surge.sh/"    
+
             />  
                 
         </div>

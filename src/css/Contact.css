@@ -132,6 +132,18 @@
   }
 }
 
+@media (max-width: 769px) {
+  .contact__info__text {
+    font-weight: 400;
+  }
+  .contact__form__title {
+    font-weight: 400;
+  }
+  .contact__form__button {
+    margin-bottom: 60px;
+  }
+}
+
 @media (max-width: 530px) {
 
   .contact {
@@ -143,5 +155,12 @@
   .contact__form__message {
     width: 90%;
   }
+  .contact__form__title {
+    margin-left: 0px;
+  }
+  .contact__form__input {
+    margin-left: 0px;
+  }
+
 }
 

@@ -41,3 +41,16 @@ a {
     font-weight: bold;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+   .singleProject__img {
+    width: 150px;
+    transform: translate(-50%, -90%);
+   }
+   .singleProject__text {
+       opacity: 1;
+   }
+   .singleProject__text__title {
+       font-weight: 400;
+   }
+}
