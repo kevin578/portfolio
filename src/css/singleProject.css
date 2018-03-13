@@ -45,12 +45,16 @@ a {
 @media (max-width: 768px) {
    .singleProject__img {
     width: 150px;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -115%);
+    display: block;
    }
    .singleProject__text {
        opacity: 1;
+
    }
    .singleProject__text__title {
        font-weight: 400;
    }
 }
+
+

@@ -49,7 +49,7 @@ export default class SingleProject extends React.Component {
                     <p className="singleProject__text__title">{this.props.projectTitle}</p>
                     <p className="singleProject__text__sub">{this.props.projectSubtitle}</p>
                 </div>
-                </div>     
+            </div>     
         )
     }
 }

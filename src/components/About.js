@@ -6,17 +6,7 @@ export default class About extends React.Component {
     return (
       <div className="about">
         <div className="about__paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          id bibendum ante. Nunc mi nulla, ullamcorper sit amet nunc non, ornare
-          sodales lorem. Etiam egestas neque vehicula metus scelerisque, at
-          tincidunt nunc dapibus. Aenean ultrices purus non massa venenatis
-          ultricies. Proin finibus elit auctor ante scelerisque, in pretium
-          nulla porttitor. Nam enim nunc, vestibulum non suscipit eget, volutpat
-          sed eros. Ut vehicula mi ac metus viverra interdum ac et dui.
-          Suspendisse maximus metus est, eu tincidunt risus mollis vitae.
-          Vestibulum commodo metus eget massa semper, sit amet consequat sem
-          scelerisque. Curabitur velit ligula, sollicitudin at elit eu,
-          pellentesque placerat ligula.
+        After graduating college, I wanted to travel and taught in Thailand, Korea, and Mexico. Though, I initially went into education for the travel, I eventually fell in love with craft and art of creating great curricula. For the last four years, I’ve coordinated the lower and middle school technology programs at the Bancroft School in Worcester, MA. This job has given me incredible opportunities to introduce kids to technology and learn a wide variety of skills from the Adobe suite, to 3D printing, to Raspberry Pi. Over the last couple years, I’ve focused my personal learning on full stack web development and would love to talk with you about building something awesome. 
         </div>
         <div className="about__skills">
           <div className="about__skills__title">

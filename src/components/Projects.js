@@ -16,41 +16,41 @@ export default class Projects extends React.Component {
             <SingleProject
                 projectIMG={football}
                 projectTitle="Fantasy Football App"
-                projectSubtitle = "A fantasy football scorekeeper made with React"   
+                projectSubtitle = "My friend was doing our fantasy football league scoring by hand, so I built this instead. It uses React to call the NFL's API and update live. I was nervous during game time deployment, but it worked like a charm."   
                 projectURL = "http://fireleaguefallout.surge.sh/" 
             />
             
             <SingleProject
                 projectIMG={scissors}
                 projectTitle="Link Shortener"
-                projectSubtitle = "App to create custom short links. Built with Node.js and MongoDB" 
+                projectSubtitle = "This app allows users to create custom links, similar to the site tinyurl.com. The backend uses Node.js and stores links in MongoDB." 
                 projectURL = "https://kevins-kustom-links.herokuapp.com/"   
                 />
             
             <SingleProject
                 projectIMG={simon}
                 projectTitle="Simon"
-                projectSubtitle = "Remake of the classic game. Uses Promises and navigable SVGs."    
+                projectSubtitle = "Remake of the classic game. This was the first project where I learned I could design an SVG in Illustrator and then instert each shape into the DOM. Mind blown. Given the sequential nature of the game, it also made me get my hands real dirty with Promises."    
                 projectURL = "http://simongamedekevin.surge.sh/"
             />
             <SingleProject
                 projectIMG={mrtk}
                 projectTitle="mrteacherkevin"
-                projectSubtitle = "My educational site."   
+                projectSubtitle = "When I started teaching technology, I would run around continuously trying to put out technical fires. I eventually started to make guides the students could follow without needing me. This is where they all lived. It's made with Wordpress."   
                 projectURL = "http://mrteacherkevin.com/" 
             />
             
             <SingleProject
                 projectIMG={tomato}
                 projectTitle="Pomodoro Clock"
-                projectSubtitle = "Pomodoro clock programmed with Vue."   
+                projectSubtitle = "This is a Pomodoro clock to help increase productivity. Made with Vue, it was my first time using a framework. It's definitely not the most elegant use of Vue, but it works and is an app that I use in my daily life."   
                 projectURL = "http://clockdepomodoro.surge.sh/" 
             />
             
             <SingleProject
                 projectIMG={dadJoke}
                 projectTitle="Dad Joke Generator"
-                projectSubtitle = "Fun app that gives you a bunch of dad jokes."
+                projectSubtitle = "This app gives you a bunch of random dad jokes. It won't change the world, but it might make you laugh."
                 projectURL = "http://kevinsdadjokegenerator.surge.sh/"    
 
             />  
