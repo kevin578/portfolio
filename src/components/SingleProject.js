@@ -44,7 +44,7 @@ export default class SingleProject extends React.Component {
 
         return (
             <div onClick = {this.handleClick}className={divClass} onMouseLeave={()=> this.hoverEffect(false)} >
-                <img src={this.props.projectIMG} className={imgClass} onMouseEnter={()=> this.hoverEffect(true)}/>
+                <img src={this.props.projectIMG} className={imgClass} alt = "" onMouseEnter={()=> this.hoverEffect(true)}/>
                 <div className={textClass}>
                     <p className="singleProject__text__title">{this.props.projectTitle}</p>
                     <p className="singleProject__text__sub">{this.props.projectSubtitle}</p>

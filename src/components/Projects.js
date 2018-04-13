@@ -6,13 +6,25 @@ import scissors from './../img/scissors.svg';
 import simon from './../img/simon.svg';
 import mrtk from './../img/mrtk1.png';
 import tomato from './../img/tomato.png';
-import dadJoke from './../img/dadJoke.svg';
-    
+import pet from './../img/pet.png';
+
+
 export default class Projects extends React.Component {
     
     render() {
         return (
+
         <div className="projects">
+
+            <SingleProject
+            projectIMG={pet}
+            projectTitle="Cute or Not"
+            projectSubtitle = "For this app, I served as the project manager for a remote development team. It's a full stack MERN app that allows users to upload pictures of their pets and vote on which ones they think are the cutest."
+            projectURL = "http://cuteornotapp.herokuapp.com/"    
+
+            />  
+
+
             <SingleProject
                 projectIMG={football}
                 projectTitle="Fantasy Football App"
@@ -47,13 +59,6 @@ export default class Projects extends React.Component {
                 projectURL = "http://clockdepomodoro.surge.sh/" 
             />
             
-            <SingleProject
-                projectIMG={dadJoke}
-                projectTitle="Dad Joke Generator"
-                projectSubtitle = "This app gives you a bunch of random dad jokes. It won't change the world, but it might make you laugh."
-                projectURL = "http://kevinsdadjokegenerator.surge.sh/"    
-
-            />  
                 
         </div>
     )   

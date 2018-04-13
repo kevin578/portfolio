@@ -12,6 +12,7 @@ export default class Contact extends React.Component {
               href="https://github.com/kevin578"
               target="_blank"
               className="contact__info__links"
+              rel="noopener noreferrer"
             >
               <FontAwesome className="fas" name="github" />
             </a>
@@ -19,6 +20,7 @@ export default class Contact extends React.Component {
               href="https://www.youtube.com/channel/UCeebzVOg5Iv4hVqKTFdaqUQ"
               target="_blank"
               className="contact__info__links"
+              rel="noopener noreferrer"
             >
               <FontAwesome className="fas" name="youtube" />
             </a>
@@ -26,6 +28,7 @@ export default class Contact extends React.Component {
               href="https://www.linkedin.com/in/kevin-briggs-494b6354/"
               target="_blank"
               className="contact__info__links"
+              rel="noopener noreferrer"
             >
               <FontAwesome className="fas" name="linkedin" />
             </a>
