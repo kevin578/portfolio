@@ -1,6 +1,6 @@
 import React from 'react';
 import "./../css/Projects.css";
-import "./../css/SingleProject.css"
+import "./../css/singleProject.css"
 import classNames from 'classnames';
     
 export default class SingleProject extends React.Component {

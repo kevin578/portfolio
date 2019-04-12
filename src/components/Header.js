@@ -12,7 +12,7 @@ export default class Header extends React.Component {
                 <div className = "header__content">    
                     <img src={profile} className="header__content__img"  alt = ""/>
                     <h1 className = "header__content__name">Kevin Briggs</h1>
-                    <h2 className="header__content__description">Web Developer and Teacher</h2>
+                    <h2 className="header__content__description">Web Developer</h2>
                     <div className = "cursor-hover-area" onClick={()=>this.props.scrollDown('Projects')}>
                         <object data={arrow}  aria-label = "" type="image/svg+xml" className="header__arrow"></object>
                     </div>   
